@@ -1,0 +1,1393 @@
+2026-01-13 00:02:39,475 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-13 00:02:39,480 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-13 00:06:07,925 INFO mlhandler.api.routes: Received upload: filename=newFile.csv content_type=text/csv
+2026-01-13 00:06:09,556 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp_3rdpbo8.csv
+2026-01-13 00:06:09,556 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp_3rdpbo8.csv
+2026-01-13 00:06:09,669 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp_3rdpbo8.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp4pqp_mld.csv
+2026-01-13 00:06:09,672 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp_3rdpbo8.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp4pqp_mld.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata'])
+2026-01-13 00:06:42,569 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-13 00:06:43,518 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-13 00:06:43,519 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-13 00:07:02,104 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-13 00:07:02,909 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-13 00:07:02,912 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-13 00:07:09,505 INFO mlhandler.api.routes: Received upload: filename=newFile.csv content_type=text/csv
+2026-01-13 00:07:10,139 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpaxj_j1hh.csv
+2026-01-13 00:07:10,139 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpaxj_j1hh.csv
+2026-01-13 00:07:10,193 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpaxj_j1hh.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp98pq0tr4.csv
+2026-01-13 00:07:10,195 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpaxj_j1hh.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp98pq0tr4.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata'])
+2026-01-13 00:08:32,252 INFO mlhandler.api.routes: Received upload: filename=newFile.csv content_type=text/csv
+2026-01-13 00:08:32,258 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpgth5az2k.csv
+2026-01-13 00:08:32,259 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpgth5az2k.csv
+2026-01-13 00:08:32,318 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpgth5az2k.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp9tfbee9c.csv
+2026-01-13 00:08:32,322 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpgth5az2k.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp9tfbee9c.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata'])
+2026-01-13 00:09:58,762 INFO mlhandler.api.routes: Received upload: filename=newFile.csv content_type=text/csv
+2026-01-13 00:09:58,766 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp4pkk6o1s.csv
+2026-01-13 00:09:58,766 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp4pkk6o1s.csv
+2026-01-13 00:09:58,810 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp4pkk6o1s.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp339j8x9w.csv
+2026-01-13 00:09:58,813 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp4pkk6o1s.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp339j8x9w.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata'])
+2026-01-29 22:58:31,524 INFO mlhandler.app.main: Included API routes from backend.app.api.routes
+2026-01-29 22:58:31,526 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 22:58:39,551 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 22:58:40,266 INFO mlhandler.app.main: Included API routes from backend.app.api.routes
+2026-01-29 22:58:40,268 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 22:58:49,894 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 22:58:50,703 INFO mlhandler.app.main: Included API routes from backend.app.api.routes
+2026-01-29 22:58:50,704 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 22:59:01,756 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 22:59:02,505 INFO mlhandler.app.main: Included API routes from backend.app.api.routes
+2026-01-29 22:59:02,506 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:00:09,127 INFO mlhandler.api.routes: Received upload: filename=Top_150_DSA_SDE_Tracking.csv content_type=text/csv
+2026-01-29 23:00:11,384 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:00:12,528 INFO mlhandler.app.main: Included API routes from backend.app.api.routes
+2026-01-29 23:00:12,532 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:01:11,579 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:01:12,507 INFO mlhandler.app.main: Included API routes from backend.app.api.routes
+2026-01-29 23:01:12,511 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:01:21,473 INFO mlhandler.api.routes: Received upload: filename=kmeans_origin.csv content_type=text/csv
+2026-01-29 23:01:22,178 INFO mlhandler.api.routes: Starting processing pipeline backend.app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpg4sd1ei4.csv
+2026-01-29 23:01:22,179 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpg4sd1ei4.csv
+2026-01-29 23:01:22,195 ERROR mlhandler.api.routes: Pipeline processing error for C:\Users\KARTIK~1\AppData\Local\Temp\tmpg4sd1ei4.csv: 'module' object is not iterable
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 164, in process_csv
+    result = await asyncio.to_thread(fn, input_path, parsed_config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline.py", line 57, in process_csv
+    df_cleaned, clean_stats = clean_dataframe(df_fixed, overrides=config)
+                              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\services\cleaner.py", line 100, in clean_dataframe
+    rules = get_cleaning_rules(overrides)
+  File "D:\Projects 2026\MLHandler\backend\app\core\config.py", line 59, in get_cleaning_rules
+    rules.update(overrides)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'module' object is not iterable
+2026-01-29 23:01:29,795 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:02:06,246 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:02:06,247 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:02:43,088 INFO mlhandler.api.routes: Received upload: filename=tmp98pq0tr4.csv content_type=text/csv
+2026-01-29 23:02:43,776 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpd9crdybg.csv
+2026-01-29 23:02:43,776 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpd9crdybg.csv
+2026-01-29 23:02:43,829 ERROR mlhandler.api.routes: Pipeline processing error for C:\Users\KARTIK~1\AppData\Local\Temp\tmpd9crdybg.csv: 'module' object is not iterable
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 164, in process_csv
+    result = await asyncio.to_thread(fn, input_path, parsed_config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline.py", line 57, in process_csv
+    df_cleaned, clean_stats = clean_dataframe(df_fixed, overrides=config)
+                              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\services\cleaner.py", line 100, in clean_dataframe
+    rules = get_cleaning_rules(overrides)
+  File "D:\Projects 2026\MLHandler\backend\app\core\config.py", line 59, in get_cleaning_rules
+    rules.update(overrides)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'module' object is not iterable
+2026-01-29 23:03:08,851 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:03:09,750 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:03:09,751 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:04:52,268 INFO mlhandler.api.routes: Received upload: filename=Top_150_DSA_SDE_Tracking_COMPLETE.csv content_type=text/csv
+2026-01-29 23:04:52,916 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp5ff_leei.csv
+2026-01-29 23:04:52,917 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp5ff_leei.csv
+2026-01-29 23:04:53,047 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp5ff_leei.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpuax6nxhq.csv
+2026-01-29 23:04:53,049 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp5ff_leei.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpuax6nxhq.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata'])
+2026-01-29 23:07:34,965 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:07:34,969 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpe9n0apfi.csv
+2026-01-29 23:07:34,969 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpe9n0apfi.csv
+2026-01-29 23:07:35,319 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpe9n0apfi.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp5ooz_k2e.csv
+2026-01-29 23:07:35,322 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpe9n0apfi.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp5ooz_k2e.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata'])
+2026-01-29 23:24:29,918 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:24:30,881 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:24:30,882 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:25:41,732 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:25:43,002 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:25:43,004 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:26:08,685 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:26:09,664 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:26:09,666 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:27:38,950 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:27:40,104 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:27:40,107 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:28:00,740 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:28:01,740 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:28:01,742 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:28:26,318 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:28:27,766 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:28:27,771 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:28:32,088 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:28:33,703 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:28:33,706 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:28:52,481 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:28:53,331 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:28:53,333 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:29:11,400 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:29:13,336 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:29:13,339 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:29:32,381 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:29:33,868 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:29:33,874 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:30:08,510 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:30:09,477 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:30:09,479 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:31:16,424 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:31:17,709 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:31:17,711 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:31:43,737 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:31:44,537 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:31:44,539 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:31:59,148 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:31:59,829 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpj5z90tm5.csv
+2026-01-29 23:31:59,829 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpj5z90tm5.csv
+2026-01-29 23:32:00,149 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpj5z90tm5.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpry0shzjx.csv
+2026-01-29 23:32:00,152 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpj5z90tm5.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpry0shzjx.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:35:27,394 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:35:28,400 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:35:28,405 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:35:34,809 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:35:35,818 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:35:35,820 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:35:49,719 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:35:50,816 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:35:50,818 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:36:37,352 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:36:38,668 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:36:38,672 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:36:44,958 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:36:45,699 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp4ek29ytr.csv
+2026-01-29 23:36:45,700 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp4ek29ytr.csv
+2026-01-29 23:36:46,064 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp4ek29ytr.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp0fefqfm0.csv
+2026-01-29 23:36:46,068 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp4ek29ytr.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp0fefqfm0.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:44:40,138 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:44:40,143 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpjl6s4fj4.csv
+2026-01-29 23:44:40,143 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpjl6s4fj4.csv
+2026-01-29 23:44:40,273 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpjl6s4fj4.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp3q6skw0q.csv
+2026-01-29 23:44:40,276 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpjl6s4fj4.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp3q6skw0q.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:45:24,121 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:45:24,124 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp8898uho2.csv
+2026-01-29 23:45:24,125 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp8898uho2.csv
+2026-01-29 23:45:24,462 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp8898uho2.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp1jbfx_od.csv
+2026-01-29 23:45:24,465 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp8898uho2.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp1jbfx_od.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:45:34,537 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:45:34,542 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp_hevaj49.csv
+2026-01-29 23:45:34,543 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp_hevaj49.csv
+2026-01-29 23:45:34,847 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp_hevaj49.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp5adsrs01.csv
+2026-01-29 23:45:34,850 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp_hevaj49.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp5adsrs01.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:45:41,744 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:45:41,748 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpp1es1602.csv
+2026-01-29 23:45:41,748 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpp1es1602.csv
+2026-01-29 23:45:41,858 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpp1es1602.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpwwju20u6.csv
+2026-01-29 23:45:41,862 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpp1es1602.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpwwju20u6.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:45:47,802 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:45:47,807 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpmc8lizl9.csv
+2026-01-29 23:45:47,808 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpmc8lizl9.csv
+2026-01-29 23:45:47,942 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpmc8lizl9.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpk8wt_vzg.csv
+2026-01-29 23:45:47,944 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpmc8lizl9.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpk8wt_vzg.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:53:08,710 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:53:09,728 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:53:09,730 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:53:27,606 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:53:28,437 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:53:28,441 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:54:21,450 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-29 23:54:22,159 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpqlz095hq.csv
+2026-01-29 23:54:22,160 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpqlz095hq.csv
+2026-01-29 23:54:22,702 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpqlz095hq.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp_g1xfrra.csv
+2026-01-29 23:54:22,705 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpqlz095hq.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp_g1xfrra.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'load_metadata', 'config_used'])
+2026-01-29 23:57:40,072 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:57:42,188 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:57:42,193 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:57:46,411 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:57:48,362 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:57:48,364 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:58:46,383 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-29 23:58:47,421 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-29 23:58:47,423 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-29 23:59:35,618 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 15:36:51,086 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 15:36:51,088 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 15:37:15,578 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 15:37:17,771 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpe5c42_dq.csv
+2026-01-31 15:37:17,773 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpe5c42_dq.csv
+2026-01-31 15:37:18,319 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpe5c42_dq.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp66qp372z.csv
+2026-01-31 15:37:18,322 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpe5c42_dq.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp66qp372z.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'load_metadata', 'config_used'])
+2026-01-31 15:40:41,946 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 15:40:43,410 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 15:40:43,415 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 15:40:48,546 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 15:40:49,398 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpbc8jeraa.csv
+2026-01-31 15:40:49,399 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpbc8jeraa.csv
+2026-01-31 15:40:49,782 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpbc8jeraa.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmppd5_t18u.csv
+2026-01-31 15:40:49,785 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpbc8jeraa.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmppd5_t18u.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'load_metadata', 'config_used'])
+2026-01-31 15:40:57,014 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 15:40:58,202 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 15:40:58,203 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 15:41:04,044 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 15:41:04,982 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 15:41:04,984 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 15:41:10,162 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 15:41:10,862 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 15:41:10,864 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 15:41:53,147 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 15:41:54,162 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 15:41:54,163 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 15:42:03,590 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 15:42:04,320 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpiwjj8pyf.csv
+2026-01-31 15:42:04,321 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpiwjj8pyf.csv
+2026-01-31 15:42:04,693 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpiwjj8pyf.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpduyq7p0v.csv
+2026-01-31 15:42:04,696 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpiwjj8pyf.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpduyq7p0v.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-01-31 16:15:16,500 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 16:44:31,534 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 16:44:31,537 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 16:44:47,449 INFO mlhandler.app.main: MLHandler application shutting down
+2026-01-31 16:44:48,401 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-01-31 16:44:48,404 INFO mlhandler.app.main: MLHandler application starting up
+2026-01-31 16:44:59,458 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 16:45:00,136 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp7yeqpxfc.csv
+2026-01-31 16:45:00,136 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp7yeqpxfc.csv
+2026-01-31 16:45:00,474 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp7yeqpxfc.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpp3ykmxks.csv
+2026-01-31 16:45:00,477 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp7yeqpxfc.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpp3ykmxks.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-01-31 16:51:49,176 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 16:51:49,181 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpxicp82tl.csv
+2026-01-31 16:51:49,181 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpxicp82tl.csv
+2026-01-31 16:51:49,482 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpxicp82tl.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpa2sndokk.csv
+2026-01-31 16:51:49,485 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpxicp82tl.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpa2sndokk.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-01-31 16:56:36,511 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 16:56:36,516 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpws_uj7rm.csv
+2026-01-31 16:56:36,516 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpws_uj7rm.csv
+2026-01-31 16:56:36,805 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpws_uj7rm.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpbkyl7epb.csv
+2026-01-31 16:56:36,807 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpws_uj7rm.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpbkyl7epb.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-01-31 17:15:59,008 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 17:15:59,014 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp2j2_idic.csv
+2026-01-31 17:15:59,015 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp2j2_idic.csv
+2026-01-31 17:15:59,432 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp2j2_idic.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpex28dl2m.csv
+2026-01-31 17:15:59,435 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp2j2_idic.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpex28dl2m.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-01-31 17:18:34,752 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-01-31 17:18:34,759 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpu6jvrxu5.csv
+2026-01-31 17:18:34,759 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpu6jvrxu5.csv
+2026-01-31 17:18:35,100 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpu6jvrxu5.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpwq62vtu_.csv
+2026-01-31 17:18:35,103 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpu6jvrxu5.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpwq62vtu_.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 12:55:35,723 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-01 12:55:35,726 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-01 12:55:45,826 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 12:55:47,037 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpsyxun89o.csv
+2026-02-01 12:55:47,038 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpsyxun89o.csv
+2026-02-01 12:55:47,411 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpsyxun89o.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpqd0hgvfk.csv
+2026-02-01 12:55:47,414 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpsyxun89o.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpqd0hgvfk.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 13:20:48,734 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 13:20:48,745 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpft75segw.csv
+2026-02-01 13:20:48,746 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpft75segw.csv
+2026-02-01 13:20:49,116 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpft75segw.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp90bc_gzi.csv
+2026-02-01 13:20:49,121 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpft75segw.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp90bc_gzi.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 13:22:42,768 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 13:22:42,773 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpkwaaxhib.csv
+2026-02-01 13:22:42,774 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpkwaaxhib.csv
+2026-02-01 13:22:43,116 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpkwaaxhib.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp106p0suw.csv
+2026-02-01 13:22:43,119 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpkwaaxhib.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp106p0suw.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 13:23:45,065 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-01 13:24:00,647 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-01 13:24:00,649 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-01 13:24:12,618 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 13:24:13,427 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpc35b9mrr.csv
+2026-02-01 13:24:13,427 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpc35b9mrr.csv
+2026-02-01 13:24:13,775 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpc35b9mrr.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpwn_873u_.csv
+2026-02-01 13:24:13,779 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpc35b9mrr.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpwn_873u_.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 13:25:23,835 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 13:25:23,839 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmptgx5i43t.csv
+2026-02-01 13:25:23,840 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmptgx5i43t.csv
+2026-02-01 13:25:24,183 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmptgx5i43t.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp142xwevr.csv
+2026-02-01 13:25:24,186 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmptgx5i43t.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp142xwevr.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 14:01:14,968 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 14:01:14,974 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpjnbc2947.csv
+2026-02-01 14:01:14,975 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpjnbc2947.csv
+2026-02-01 14:01:15,325 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpjnbc2947.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpuien_89k.csv
+2026-02-01 14:01:15,327 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpjnbc2947.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpuien_89k.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 14:05:18,376 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-01 14:05:19,889 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-01 14:05:19,891 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-01 14:06:08,598 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-01 14:06:09,404 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-01 14:06:09,406 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-01 14:07:31,321 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-01 14:07:32,162 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-01 14:07:32,164 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-01 14:09:17,532 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 14:09:18,530 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp_ibwe7op.csv
+2026-02-01 14:09:18,531 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp_ibwe7op.csv
+2026-02-01 14:09:18,863 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp_ibwe7op.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpujx7txe2.csv
+2026-02-01 14:09:18,866 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp_ibwe7op.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpujx7txe2.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 14:11:17,224 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-01 14:11:17,226 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-01 14:11:27,292 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-01 14:11:52,443 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-01 14:11:53,091 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpfpadfm2b.csv
+2026-02-01 14:11:53,092 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpfpadfm2b.csv
+2026-02-01 14:11:53,363 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpfpadfm2b.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpqjqd_c22.csv
+2026-02-01 14:11:53,365 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpfpadfm2b.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpqjqd_c22.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-01 14:12:06,569 INFO mlhandler.api.routes: Loaded CSV for outlier removal: shape=(1274, 12), columns to clean=['Price']
+2026-02-01 14:12:06,589 INFO mlhandler.api.routes: Outlier removal complete: 28 rows removed from 1274
+2026-02-01 14:12:06,646 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1274, 12)
+2026-02-01 14:12:06,666 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-01 14:12:32,300 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1246, 12)
+2026-02-01 14:12:32,318 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-01 14:12:33,472 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1246, 12)
+2026-02-01 14:12:33,489 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-01 14:12:33,693 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1246, 12)
+2026-02-01 14:12:33,710 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-01 14:13:18,128 INFO mlhandler.api.routes: Loaded CSV for outlier removal: shape=(1246, 12), columns to clean=['Weight']
+2026-02-01 14:13:18,143 INFO mlhandler.api.routes: Outlier removal complete: 44 rows removed from 1246
+2026-02-01 14:13:18,203 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1246, 12)
+2026-02-01 14:13:18,221 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-03 15:23:56,560 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-03 15:23:56,563 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-03 15:24:11,095 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-03 15:24:12,434 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmple9ljki7.csv
+2026-02-03 15:24:12,435 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmple9ljki7.csv
+2026-02-03 15:24:12,770 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmple9ljki7.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpcj2pt575.csv
+2026-02-03 15:24:12,774 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmple9ljki7.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpcj2pt575.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-03 15:28:59,261 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1274, 12)
+2026-02-03 15:28:59,282 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-03 15:29:21,256 INFO mlhandler.api.routes: Loaded CSV for outlier removal: shape=(1274, 12), columns to clean=['Inches']
+2026-02-03 15:29:21,273 INFO mlhandler.api.routes: Outlier removal complete: 45 rows removed from 1274
+2026-02-03 15:29:21,328 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1274, 12)
+2026-02-03 15:29:21,345 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-02-16 23:22:53,636 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-16 23:22:53,639 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-16 23:23:12,653 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-16 23:23:14,284 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpvq_k1d4q.csv
+2026-02-16 23:23:14,285 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpvq_k1d4q.csv
+2026-02-16 23:23:14,718 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpvq_k1d4q.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpfhg8d6t9.csv
+2026-02-16 23:23:14,725 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpvq_k1d4q.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpfhg8d6t9.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-16 23:28:53,801 INFO mlhandler.api.routes: Received upload: filename=SampleSuperstore.csv content_type=text/csv
+2026-02-16 23:28:53,812 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpko16_ttm.csv
+2026-02-16 23:28:53,813 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpko16_ttm.csv
+2026-02-16 23:28:54,953 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpko16_ttm.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpex6hdiwf.csv
+2026-02-16 23:28:54,961 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpko16_ttm.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpex6hdiwf.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-16 23:44:52,257 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-16 23:44:53,503 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-16 23:44:53,507 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-16 23:46:17,344 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-16 23:46:18,413 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-16 23:46:18,416 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-16 23:46:19,289 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-16 23:46:20,246 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-16 23:46:20,249 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-16 23:46:28,162 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-16 23:50:06,914 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-16 23:50:06,915 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-16 23:52:27,215 INFO mlhandler.api.routes: Received upload: filename=SampleSuperstore.csv content_type=text/csv
+2026-02-16 23:52:28,020 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpx21qitl8.csv
+2026-02-16 23:52:28,020 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpx21qitl8.csv
+2026-02-16 23:52:29,400 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpx21qitl8.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp95dl2k0y.csv
+2026-02-16 23:52:29,408 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpx21qitl8.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp95dl2k0y.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'load_metadata', 'config_used'])
+2026-02-17 00:05:46,512 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:05:47,580 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:05:47,583 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:05:48,595 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:05:49,439 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:05:49,440 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:06:07,918 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:06:08,847 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:06:08,850 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:06:33,680 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:06:34,557 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:06:34,570 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:06:38,488 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpkynchrz2.csv
+2026-02-17 00:06:38,492 INFO mlhandler.services.pipeline: Applying field mapping using schema
+2026-02-17 00:06:38,493 INFO mlhandler.services.pipeline: Field mapping complete: 4 columns mapped, 0 unmapped
+2026-02-17 00:06:38,512 INFO mlhandler.services.pipeline: Schema validation completed: 0 issues found
+2026-02-17 00:06:38,514 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpkynchrz2.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpntjqa8q0.csv
+2026-02-17 00:06:59,819 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpb8_d53vj.csv
+2026-02-17 00:06:59,824 INFO mlhandler.services.pipeline: Applying field mapping using schema
+2026-02-17 00:06:59,825 INFO mlhandler.services.pipeline: Field mapping complete: 4 columns mapped, 0 unmapped
+2026-02-17 00:06:59,847 INFO mlhandler.services.pipeline: Schema validation completed: 0 issues found
+2026-02-17 00:06:59,849 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpb8_d53vj.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp7h5byojo.csv
+2026-02-17 00:07:34,695 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:07:35,563 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:07:35,565 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:08:01,536 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:08:02,344 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:08:02,347 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:08:05,731 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp17l5gy0y.csv
+2026-02-17 00:08:05,735 INFO mlhandler.services.pipeline: Applying field mapping using schema
+2026-02-17 00:08:05,736 INFO mlhandler.services.pipeline: Field mapping complete: 4 columns mapped, 0 unmapped
+2026-02-17 00:08:05,753 INFO mlhandler.services.pipeline: Schema validation completed: 0 issues found
+2026-02-17 00:08:05,755 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp17l5gy0y.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmphucqs6gy.csv
+2026-02-17 00:09:19,272 INFO mlhandler.api.routes: Received upload: filename=SampleSuperstore.csv content_type=text/csv
+2026-02-17 00:09:20,091 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpa8mkd_q3.csv
+2026-02-17 00:09:20,091 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpa8mkd_q3.csv
+2026-02-17 00:09:20,204 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-02-17 00:09:21,391 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpa8mkd_q3.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpkc8lb0eh.csv
+2026-02-17 00:09:21,399 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpa8mkd_q3.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpkc8lb0eh.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-02-17 00:09:54,158 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-17 00:09:54,162 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpq08caez7.csv
+2026-02-17 00:09:54,163 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpq08caez7.csv
+2026-02-17 00:09:54,194 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-02-17 00:09:54,501 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpq08caez7.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpycruuklo.csv
+2026-02-17 00:09:54,504 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpq08caez7.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpycruuklo.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-02-17 00:11:27,271 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:11:28,200 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:11:28,202 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:12:17,241 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:12:18,115 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:12:18,117 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:12:44,605 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:12:45,437 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:12:45,439 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:19:13,514 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:19:15,908 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:19:15,910 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:19:25,902 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-02-17 00:19:26,592 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpebotqk8a.csv
+2026-02-17 00:19:26,592 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpebotqk8a.csv
+2026-02-17 00:19:26,617 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-02-17 00:19:26,909 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpebotqk8a.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp2qc2nfij.csv
+2026-02-17 00:19:26,913 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpebotqk8a.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp2qc2nfij.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-02-17 00:23:24,460 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:23:25,386 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:23:25,389 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:23:45,989 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:23:46,836 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:23:46,840 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:24:03,146 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:24:04,174 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:24:04,176 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:24:36,366 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:24:37,476 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:24:37,479 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:24:40,601 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpz9zmn7t9.csv
+2026-02-17 00:24:40,606 INFO mlhandler.services.pipeline: Applying field mapping using schema
+2026-02-17 00:24:40,609 INFO mlhandler.services.pipeline: Field mapping complete: 0 columns mapped, 5 unmapped
+2026-02-17 00:24:40,643 INFO mlhandler.services.pipeline: Schema validation completed: 0 issues found
+2026-02-17 00:24:40,645 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpz9zmn7t9.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp35ec1elx.csv
+2026-02-17 00:26:49,466 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:26:50,197 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:26:50,199 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:27:10,376 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:27:11,086 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:27:11,089 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:28:01,185 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:28:02,279 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:28:02,282 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:28:35,809 INFO mlhandler.api.routes: Received upload: filename=SampleSuperstore.csv content_type=text/csv
+2026-02-17 00:28:36,612 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpj30dc_u0.csv
+2026-02-17 00:28:36,612 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpj30dc_u0.csv
+2026-02-17 00:28:36,728 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-02-17 00:28:37,721 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpj30dc_u0.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp7sp_robc.csv
+2026-02-17 00:28:37,729 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpj30dc_u0.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp7sp_robc.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-02-17 00:35:30,186 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:36:24,294 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:36:24,296 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:36:36,461 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:36:37,209 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:36:37,211 INFO mlhandler.app.main: MLHandler application starting up
+2026-02-17 00:36:50,589 INFO mlhandler.api.routes: Received upload: filename=SampleSuperstore.csv content_type=text/csv
+2026-02-17 00:36:51,277 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmp1inlr0k0.csv
+2026-02-17 00:36:51,278 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmp1inlr0k0.csv
+2026-02-17 00:36:51,384 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-02-17 00:36:52,349 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmp1inlr0k0.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpxg9stpcb.csv
+2026-02-17 00:36:52,355 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmp1inlr0k0.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpxg9stpcb.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-02-17 00:37:00,864 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(9977, 13)
+2026-02-17 00:37:00,903 INFO mlhandler.api.routes: Outlier detection complete: 5 numeric columns analyzed
+2026-02-17 00:37:18,869 INFO mlhandler.app.main: MLHandler application shutting down
+2026-02-17 00:37:19,714 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-02-17 00:37:19,716 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 12:53:21,818 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 12:53:21,822 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 12:53:52,060 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 12:53:52,061 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 12:53:57,808 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-04-09 12:53:59,321 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpy9878dyb.csv
+2026-04-09 12:53:59,322 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpy9878dyb.csv
+2026-04-09 12:53:59,374 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-04-09 12:53:59,696 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpy9878dyb.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmpju5gjxv8.csv
+2026-04-09 12:53:59,699 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpy9878dyb.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmpju5gjxv8.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-04-09 12:54:22,973 INFO mlhandler.api.routes: Loaded CSV for outlier removal: shape=(1274, 12), columns to clean=['Inches', 'Price']
+2026-04-09 12:54:22,983 INFO mlhandler.api.routes: Outlier removal complete: 73 rows removed from 1274
+2026-04-09 12:54:23,041 INFO mlhandler.api.routes: Loaded CSV for outlier detection: shape=(1274, 12)
+2026-04-09 12:54:23,069 INFO mlhandler.api.routes: Outlier detection complete: 6 numeric columns analyzed
+2026-04-09 13:00:01,438 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 13:06:34,199 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 13:06:34,200 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 13:06:53,642 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 13:21:40,259 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 13:21:40,263 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 13:22:11,796 INFO mlhandler.api.routes: Received upload: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:22:12,911 INFO mlhandler.api.routes: Starting processing pipeline app.services.pipeline.process_csv for file C:\Users\KARTIK~1\AppData\Local\Temp\tmpr1r00pup.csv
+2026-04-09 13:22:12,912 INFO mlhandler.services.pipeline: Pipeline start for C:\Users\KARTIK~1\AppData\Local\Temp\tmpr1r00pup.csv
+2026-04-09 13:22:12,961 INFO mlhandler.services.pipeline: No schema provided, skipping field mapping
+2026-04-09 13:22:13,240 INFO mlhandler.services.pipeline: Pipeline finished for C:\Users\KARTIK~1\AppData\Local\Temp\tmpr1r00pup.csv; cleaned saved to C:\Users\KARTIK~1\AppData\Local\Temp\tmp7no8vjlq.csv
+2026-04-09 13:22:13,243 INFO mlhandler.api.routes: Completed processing C:\Users\KARTIK~1\AppData\Local\Temp\tmpr1r00pup.csv -> C:\Users\KARTIK~1\AppData\Local\Temp\tmp7no8vjlq.csv (report keys: ['rows_before', 'rows_after', 'duplicates_removed', 'columns_dropped', 'missing_filled_total', 'missing_filled_per_column', 'type_conversions', 'columns_renamed', 'columns_before', 'columns_after', '_raw_clean_stats', 'profile', 'sample_before', 'sample_after', 'schema_validation', 'field_mapping', 'load_metadata', 'config_used'])
+2026-04-09 13:24:29,406 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:24:29,417 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 13:24:31,034 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:24:31,038 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 13:25:01,761 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:25:01,765 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 13:26:59,842 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 13:27:00,787 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 13:27:00,789 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 13:27:03,530 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:27:03,533 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 13:27:07,130 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:27:07,133 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 13:31:28,279 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 13:31:28,282 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:39:12,485 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:39:12,487 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:41:04,934 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:41:04,938 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:41:50,800 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:41:50,804 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:43:44,376 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 17:44:05,859 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:44:05,861 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:44:09,144 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:44:09,147 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:44:10,397 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:44:10,401 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:44:11,252 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:44:11,256 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:44:23,552 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:44:23,556 ERROR mlhandler.api.routes: Failed to enqueue processing task: No module named 'celery'
+Traceback (most recent call last):
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 153, in upload_csv
+    from app.tasks import process_csv_task
+  File "D:\Projects 2026\MLHandler\backend\app\tasks.py", line 19, in <module>
+    from celery import current_task
+ModuleNotFoundError: No module named 'celery'
+2026-04-09 17:45:49,333 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 17:45:52,848 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:45:52,850 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:46:55,202 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:46:55,520 INFO mlhandler.api.routes: Enqueued task bca6a5c2-7f6d-4f9c-bb4a-d06a307eab3b for file laptopData.csv
+2026-04-09 17:47:08,955 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-09 17:47:09,009 INFO mlhandler.api.routes: Enqueued task 79993e6b-bc8e-4812-8f2e-c26bda9228a9 for file laptopData.csv
+2026-04-09 17:47:27,445 INFO mlhandler.api.routes: Async upload received: filename=newFile.csv content_type=text/csv
+2026-04-09 17:47:27,449 INFO mlhandler.api.routes: Enqueued task 47e1ffd3-1ec0-413b-a02b-cb126bec35b0 for file newFile.csv
+2026-04-09 17:48:39,506 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:48:39,507 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:49:16,136 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 17:49:17,405 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:49:17,408 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:49:27,293 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 17:49:28,011 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:49:28,013 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:51:48,889 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-09 17:52:44,857 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-09 17:52:44,858 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-09 17:53:08,263 INFO mlhandler.api.routes: Async upload received: filename=newFile.csv content_type=text/csv
+2026-04-09 17:53:08,693 INFO mlhandler.api.routes: Enqueued task f091687c-db9a-49e1-9966-8f1d7b0c8a58 for file newFile.csv
+2026-04-09 17:53:08,710 INFO mlhandler.app.tasks: Task f091687c-db9a-49e1-9966-8f1d7b0c8a58: loading CSV from upload (newFile.csv)
+2026-04-09 17:53:10,488 INFO mlhandler.app.tasks: Task f091687c-db9a-49e1-9966-8f1d7b0c8a58: loaded 4 rows × 3 columns
+2026-04-09 17:53:10,543 INFO mlhandler.app.tasks: Task f091687c-db9a-49e1-9966-8f1d7b0c8a58: type fixing complete
+2026-04-09 17:53:10,590 INFO mlhandler.app.tasks: Task f091687c-db9a-49e1-9966-8f1d7b0c8a58: cleaning done — 1 dupes removed
+2026-04-09 17:53:10,618 INFO mlhandler.app.tasks: Task f091687c-db9a-49e1-9966-8f1d7b0c8a58: profiling complete
+2026-04-09 17:53:10,634 INFO mlhandler.app.tasks: Task f091687c-db9a-49e1-9966-8f1d7b0c8a58: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\f091687c-db9a-49e1-9966-8f1d7b0c8a58.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\f091687c-db9a-49e1-9966-8f1d7b0c8a58_report.json
+2026-04-09 18:40:15,683 INFO mlhandler.api.routes: Async upload received: filename=newFile.csv content_type=text/csv
+2026-04-09 18:40:15,693 INFO mlhandler.api.routes: Enqueued task 47a6c7e4-c818-41eb-ba09-4bef87f11838 for file newFile.csv
+2026-04-09 18:40:15,710 INFO mlhandler.app.tasks: Task 47a6c7e4-c818-41eb-ba09-4bef87f11838: loading CSV from upload (newFile.csv)
+2026-04-09 18:40:15,724 INFO mlhandler.app.tasks: Task 47a6c7e4-c818-41eb-ba09-4bef87f11838: loaded 4 rows × 3 columns
+2026-04-09 18:40:15,765 INFO mlhandler.app.tasks: Task 47a6c7e4-c818-41eb-ba09-4bef87f11838: type fixing complete
+2026-04-09 18:40:15,785 INFO mlhandler.app.tasks: Task 47a6c7e4-c818-41eb-ba09-4bef87f11838: cleaning done — 1 dupes removed
+2026-04-09 18:40:15,805 INFO mlhandler.app.tasks: Task 47a6c7e4-c818-41eb-ba09-4bef87f11838: profiling complete
+2026-04-09 18:40:15,823 INFO mlhandler.app.tasks: Task 47a6c7e4-c818-41eb-ba09-4bef87f11838: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\47a6c7e4-c818-41eb-ba09-4bef87f11838.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\47a6c7e4-c818-41eb-ba09-4bef87f11838_report.json
+2026-04-09 18:40:57,612 INFO mlhandler.api.routes: Async upload received: filename=newFile.csv content_type=text/csv
+2026-04-09 18:40:57,619 INFO mlhandler.api.routes: Enqueued task 48f59153-0cfc-4dc3-bac4-9e9538a739f6 for file newFile.csv
+2026-04-09 18:40:57,629 INFO mlhandler.app.tasks: Task 48f59153-0cfc-4dc3-bac4-9e9538a739f6: loading CSV from upload (newFile.csv)
+2026-04-09 18:40:57,644 INFO mlhandler.app.tasks: Task 48f59153-0cfc-4dc3-bac4-9e9538a739f6: loaded 4 rows × 3 columns
+2026-04-09 18:40:57,688 INFO mlhandler.app.tasks: Task 48f59153-0cfc-4dc3-bac4-9e9538a739f6: type fixing complete
+2026-04-09 18:40:57,710 INFO mlhandler.app.tasks: Task 48f59153-0cfc-4dc3-bac4-9e9538a739f6: cleaning done — 1 dupes removed
+2026-04-09 18:40:57,728 INFO mlhandler.app.tasks: Task 48f59153-0cfc-4dc3-bac4-9e9538a739f6: profiling complete
+2026-04-09 18:40:57,743 INFO mlhandler.app.tasks: Task 48f59153-0cfc-4dc3-bac4-9e9538a739f6: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\48f59153-0cfc-4dc3-bac4-9e9538a739f6.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\48f59153-0cfc-4dc3-bac4-9e9538a739f6_report.json
+2026-04-09 18:54:15,875 INFO mlhandler.api.routes: Async upload received: filename=newFile.csv content_type=text/csv
+2026-04-09 18:54:15,882 INFO mlhandler.api.routes: Enqueued task a9e84650-1246-464b-87b3-5fb5c9fbfecd for file newFile.csv
+2026-04-09 18:54:15,893 INFO mlhandler.app.tasks: Task a9e84650-1246-464b-87b3-5fb5c9fbfecd: loading CSV from upload (newFile.csv)
+2026-04-09 18:54:15,905 INFO mlhandler.app.tasks: Task a9e84650-1246-464b-87b3-5fb5c9fbfecd: loaded 4 rows × 3 columns
+2026-04-09 18:54:15,932 INFO mlhandler.app.tasks: Task a9e84650-1246-464b-87b3-5fb5c9fbfecd: type fixing complete
+2026-04-09 18:54:15,952 INFO mlhandler.app.tasks: Task a9e84650-1246-464b-87b3-5fb5c9fbfecd: cleaning done — 1 dupes removed
+2026-04-09 18:54:15,971 INFO mlhandler.app.tasks: Task a9e84650-1246-464b-87b3-5fb5c9fbfecd: profiling complete
+2026-04-09 18:54:15,989 INFO mlhandler.app.tasks: Task a9e84650-1246-464b-87b3-5fb5c9fbfecd: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\a9e84650-1246-464b-87b3-5fb5c9fbfecd.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\a9e84650-1246-464b-87b3-5fb5c9fbfecd_report.json
+2026-04-13 16:53:53,250 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 16:53:53,255 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 16:55:54,721 INFO mlhandler.api.routes: Async upload received: filename=SampleSuperstore.csv content_type=text/csv
+2026-04-13 16:55:55,651 INFO mlhandler.api.routes: Enqueued task 045890bb-2865-4a4b-9246-6ba49966ecf3 for file SampleSuperstore.csv
+2026-04-13 16:59:13,599 INFO mlhandler.api.routes: WebSocket client disconnected for task 045890bb-2865-4a4b-9246-6ba49966ecf3
+2026-04-13 16:59:13,645 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 16:59:14,651 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 16:59:14,653 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 16:59:25,753 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 16:59:26,685 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 16:59:26,686 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:00:01,611 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:00:02,463 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 17:00:02,465 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:00:10,490 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:00:11,405 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 17:00:11,408 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:00:56,979 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:00:57,961 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 17:00:57,962 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:01:50,077 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-13 17:01:50,595 INFO mlhandler.api.routes: Enqueued task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c for file laptopData.csv
+2026-04-13 17:02:18,091 INFO mlhandler.api.routes: WebSocket client disconnected for task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c
+2026-04-13 17:02:18,137 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:02:21,109 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 17:02:21,111 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:02:34,344 INFO mlhandler.api.routes: Async upload received: filename=SampleSuperstore.csv content_type=text/csv
+2026-04-13 17:02:34,894 INFO mlhandler.api.routes: Enqueued task 7848429b-d078-475d-a87e-27dc6c5ba252 for file SampleSuperstore.csv
+2026-04-13 17:05:29,861 INFO mlhandler.app.tasks: Task 045890bb-2865-4a4b-9246-6ba49966ecf3: loading CSV from upload (SampleSuperstore.csv)
+2026-04-13 17:05:33,537 INFO mlhandler.api.routes: WebSocket client disconnected for task 7848429b-d078-475d-a87e-27dc6c5ba252
+2026-04-13 17:05:38,302 INFO mlhandler.app.tasks: Task 045890bb-2865-4a4b-9246-6ba49966ecf3: loaded 9994 rows × 13 columns
+2026-04-13 17:05:38,855 INFO mlhandler.app.tasks: Task 045890bb-2865-4a4b-9246-6ba49966ecf3: type fixing complete
+2026-04-13 17:05:38,869 INFO mlhandler.api.routes: Async upload received: filename=SampleSuperstore.csv content_type=text/csv
+2026-04-13 17:05:38,982 INFO mlhandler.api.routes: Enqueued task 63b10c9b-ab22-44ba-bfa8-3a07e377b558 for file SampleSuperstore.csv
+2026-04-13 17:05:39,095 INFO mlhandler.app.tasks: Task 045890bb-2865-4a4b-9246-6ba49966ecf3: cleaning done — 17 dupes removed
+2026-04-13 17:05:39,160 INFO mlhandler.app.tasks: Task 045890bb-2865-4a4b-9246-6ba49966ecf3: profiling complete
+2026-04-13 17:05:39,271 INFO mlhandler.app.tasks: Task 045890bb-2865-4a4b-9246-6ba49966ecf3: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\045890bb-2865-4a4b-9246-6ba49966ecf3.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\045890bb-2865-4a4b-9246-6ba49966ecf3_report.json
+2026-04-13 17:05:39,291 INFO mlhandler.app.tasks: Task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c: loading CSV from upload (laptopData.csv)
+2026-04-13 17:05:39,387 INFO mlhandler.app.tasks: Task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c: loaded 1303 rows × 12 columns
+2026-04-13 17:05:39,643 INFO mlhandler.app.tasks: Task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c: type fixing complete
+2026-04-13 17:05:39,665 INFO mlhandler.app.tasks: Task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c: cleaning done — 29 dupes removed
+2026-04-13 17:05:39,680 INFO mlhandler.app.tasks: Task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c: profiling complete
+2026-04-13 17:05:39,697 INFO mlhandler.app.tasks: Task b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\b5ea6e7d-0f0b-4a84-9603-7c7b6f28a71c_report.json
+2026-04-13 17:05:39,793 INFO mlhandler.app.tasks: Task 7848429b-d078-475d-a87e-27dc6c5ba252: loading CSV from upload (SampleSuperstore.csv)
+2026-04-13 17:05:39,904 INFO mlhandler.app.tasks: Task 7848429b-d078-475d-a87e-27dc6c5ba252: loaded 9994 rows × 13 columns
+2026-04-13 17:05:40,557 INFO mlhandler.app.tasks: Task 7848429b-d078-475d-a87e-27dc6c5ba252: type fixing complete
+2026-04-13 17:05:40,789 INFO mlhandler.app.tasks: Task 7848429b-d078-475d-a87e-27dc6c5ba252: cleaning done — 17 dupes removed
+2026-04-13 17:05:40,854 INFO mlhandler.app.tasks: Task 7848429b-d078-475d-a87e-27dc6c5ba252: profiling complete
+2026-04-13 17:05:40,994 INFO mlhandler.app.tasks: Task 7848429b-d078-475d-a87e-27dc6c5ba252: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\7848429b-d078-475d-a87e-27dc6c5ba252.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\7848429b-d078-475d-a87e-27dc6c5ba252_report.json
+2026-04-13 17:05:41,109 INFO mlhandler.app.tasks: Task 63b10c9b-ab22-44ba-bfa8-3a07e377b558: loading CSV from upload (SampleSuperstore.csv)
+2026-04-13 17:05:41,267 INFO mlhandler.app.tasks: Task 63b10c9b-ab22-44ba-bfa8-3a07e377b558: loaded 9994 rows × 13 columns
+2026-04-13 17:05:41,621 INFO mlhandler.app.tasks: Task 63b10c9b-ab22-44ba-bfa8-3a07e377b558: type fixing complete
+2026-04-13 17:05:41,736 INFO mlhandler.app.tasks: Task 63b10c9b-ab22-44ba-bfa8-3a07e377b558: cleaning done — 17 dupes removed
+2026-04-13 17:05:41,772 INFO mlhandler.app.tasks: Task 63b10c9b-ab22-44ba-bfa8-3a07e377b558: profiling complete
+2026-04-13 17:05:41,854 INFO mlhandler.app.tasks: Task 63b10c9b-ab22-44ba-bfa8-3a07e377b558: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\63b10c9b-ab22-44ba-bfa8-3a07e377b558.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\63b10c9b-ab22-44ba-bfa8-3a07e377b558_report.json
+2026-04-13 17:05:42,334 INFO mlhandler.api.routes: Loaded CSV from D:\Projects 2026\MLHandler\backend\app\api\..\..\downloads\63b10c9b-ab22-44ba-bfa8-3a07e377b558.csv: shape=(9977, 13)
+2026-04-13 17:05:42,353 INFO mlhandler.api.routes: Column stats analysis complete for D:\Projects 2026\MLHandler\backend\app\api\..\..\downloads\63b10c9b-ab22-44ba-bfa8-3a07e377b558.csv: 13 columns analyzed
+2026-04-13 17:08:18,207 INFO mlhandler.api.routes: Async upload received: filename=users_1000.csv content_type=text/csv
+2026-04-13 17:08:18,258 INFO mlhandler.api.routes: Enqueued task 82257900-abea-41b2-bc02-b3898d302730 for file users_1000.csv
+2026-04-13 17:08:18,270 INFO mlhandler.app.tasks: Task 82257900-abea-41b2-bc02-b3898d302730: loading CSV from upload (users_1000.csv)
+2026-04-13 17:08:18,281 INFO mlhandler.app.tasks: Task 82257900-abea-41b2-bc02-b3898d302730: loaded 1000 rows × 2 columns
+2026-04-13 17:08:18,418 INFO mlhandler.app.tasks: Task 82257900-abea-41b2-bc02-b3898d302730: type fixing complete
+2026-04-13 17:08:18,430 INFO mlhandler.app.tasks: Task 82257900-abea-41b2-bc02-b3898d302730: cleaning done — 0 dupes removed
+2026-04-13 17:08:18,440 INFO mlhandler.app.tasks: Task 82257900-abea-41b2-bc02-b3898d302730: profiling complete
+2026-04-13 17:08:18,449 INFO mlhandler.app.tasks: Task 82257900-abea-41b2-bc02-b3898d302730: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\82257900-abea-41b2-bc02-b3898d302730.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\82257900-abea-41b2-bc02-b3898d302730_report.json
+2026-04-13 17:08:18,596 INFO mlhandler.api.routes: Loaded CSV from D:\Projects 2026\MLHandler\backend\app\api\..\..\downloads\82257900-abea-41b2-bc02-b3898d302730.csv: shape=(1000, 2)
+2026-04-13 17:08:18,605 INFO mlhandler.api.routes: Column stats analysis complete for D:\Projects 2026\MLHandler\backend\app\api\..\..\downloads\82257900-abea-41b2-bc02-b3898d302730.csv: 2 columns analyzed
+2026-04-13 17:08:46,344 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-13 17:08:46,356 INFO mlhandler.api.routes: Enqueued task b645305d-f544-404d-b165-a33ecde30389 for file laptopData.csv
+2026-04-13 17:08:46,378 INFO mlhandler.app.tasks: Task b645305d-f544-404d-b165-a33ecde30389: loading CSV from upload (laptopData.csv)
+2026-04-13 17:08:46,443 INFO mlhandler.app.tasks: Task b645305d-f544-404d-b165-a33ecde30389: loaded 1303 rows × 12 columns
+2026-04-13 17:08:46,645 INFO mlhandler.app.tasks: Task b645305d-f544-404d-b165-a33ecde30389: type fixing complete
+2026-04-13 17:08:46,729 INFO mlhandler.app.tasks: Task b645305d-f544-404d-b165-a33ecde30389: cleaning done — 29 dupes removed
+2026-04-13 17:08:46,763 INFO mlhandler.app.tasks: Task b645305d-f544-404d-b165-a33ecde30389: profiling complete
+2026-04-13 17:08:46,788 INFO mlhandler.app.tasks: Task b645305d-f544-404d-b165-a33ecde30389: saved CSV → D:\Projects 2026\MLHandler\backend\app\..\downloads\b645305d-f544-404d-b165-a33ecde30389.csv, report → D:\Projects 2026\MLHandler\backend\app\..\downloads\b645305d-f544-404d-b165-a33ecde30389_report.json
+2026-04-13 17:08:47,213 INFO mlhandler.api.routes: Loaded CSV from D:\Projects 2026\MLHandler\backend\app\api\..\..\downloads\b645305d-f544-404d-b165-a33ecde30389.csv: shape=(1274, 12)
+2026-04-13 17:08:47,231 INFO mlhandler.api.routes: Column stats analysis complete for D:\Projects 2026\MLHandler\backend\app\api\..\..\downloads\b645305d-f544-404d-b165-a33ecde30389.csv: 12 columns analyzed
+2026-04-13 17:28:57,239 INFO mlhandler.app.main: Included API routes from app.api.routes
+2026-04-13 17:28:57,241 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:29:11,578 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:29:12,635 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:29:39,945 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:29:40,919 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:29:51,898 INFO mlhandler.api.routes: Async upload received: filename=enrollment.csv content_type=text/csv
+2026-04-13 17:29:52,864 INFO mlhandler.api.routes: Enqueued task 2da46188-6cf2-4ca9-a0e3-2eb6c82ca507 for file enrollment.csv
+2026-04-13 17:29:52,879 INFO mlhandler.app.tasks: Task 2da46188-6cf2-4ca9-a0e3-2eb6c82ca507: loading CSV from upload (enrollment.csv)
+2026-04-13 17:30:03,947 INFO mlhandler.api.routes: Async upload received: filename=email50.csv content_type=text/csv
+2026-04-13 17:30:03,959 INFO mlhandler.api.routes: Enqueued task 8e001974-279c-4845-a91a-7982736ecbe7 for file email50.csv
+2026-04-13 17:30:03,974 INFO mlhandler.app.tasks: Task 8e001974-279c-4845-a91a-7982736ecbe7: loading CSV from upload (email50.csv)
+2026-04-13 17:30:07,023 INFO mlhandler.api.routes: Async upload received: filename=email50.csv content_type=text/csv
+2026-04-13 17:30:07,030 INFO mlhandler.api.routes: Enqueued task 50fb8e0f-5775-4ba3-8d52-95128c05ed7f for file email50.csv
+2026-04-13 17:30:07,041 INFO mlhandler.app.tasks: Task 50fb8e0f-5775-4ba3-8d52-95128c05ed7f: loading CSV from upload (email50.csv)
+2026-04-13 17:30:09,635 INFO mlhandler.api.routes: Async upload received: filename=email50.csv content_type=text/csv
+2026-04-13 17:30:09,656 INFO mlhandler.api.routes: Enqueued task d22e0555-577a-4537-b389-eda5f7bbe28b for file email50.csv
+2026-04-13 17:30:09,672 INFO mlhandler.app.tasks: Task d22e0555-577a-4537-b389-eda5f7bbe28b: loading CSV from upload (email50.csv)
+2026-04-13 17:30:15,501 INFO mlhandler.api.routes: Async upload received: filename=vzz54GfLQPCGbCX7DdvcpQ_ae948bdf19b14b779b0956781d3f65f1_VanderbiltFinancialReport.csv content_type=text/csv
+2026-04-13 17:30:15,522 INFO mlhandler.api.routes: Enqueued task 0e3e2a10-3d5d-4edb-ae70-b663d47e97fd for file vzz54GfLQPCGbCX7DdvcpQ_ae948bdf19b14b779b0956781d3f65f1_VanderbiltFinancialReport.csv
+2026-04-13 17:30:15,531 INFO mlhandler.app.tasks: Task 0e3e2a10-3d5d-4edb-ae70-b663d47e97fd: loading CSV from upload (vzz54GfLQPCGbCX7DdvcpQ_ae948bdf19b14b779b0956781d3f65f1_VanderbiltFinancialReport.csv)
+2026-04-13 17:30:29,746 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-13 17:30:29,765 INFO mlhandler.api.routes: Enqueued task c763cf7e-507d-4878-aaa9-fa8f2c358904 for file laptopData.csv
+2026-04-13 17:30:29,773 INFO mlhandler.app.tasks: Task c763cf7e-507d-4878-aaa9-fa8f2c358904: loading CSV from upload (laptopData.csv)
+2026-04-13 17:30:38,842 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:30:39,654 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:31:06,115 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:31:07,574 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:31:25,816 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:31:27,079 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:34:00,626 INFO mlhandler.api.routes: Async upload received: filename=laptopData.csv content_type=text/csv
+2026-04-13 17:34:01,043 INFO mlhandler.api.routes: Enqueued task 9959cdcf-a068-4d42-8d8f-b249aedeadf7 for file laptopData.csv
+2026-04-13 17:34:01,053 INFO mlhandler.app.tasks: Task 9959cdcf-a068-4d42-8d8f-b249aedeadf7: loading CSV from upload (laptopData.csv)
+2026-04-13 17:35:57,484 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:35:58,999 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:36:24,989 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:36:26,316 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:36:39,023 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:36:40,421 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:37:48,239 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:37:50,719 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:37:59,192 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:38:01,802 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:42:38,905 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:42:41,063 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:48:45,773 INFO mlhandler.app.tasks: Task f69a9f1b-60bf-4b76-932f-2326bbd6f6ff: loading CSV from upload (file_a.csv)
+2026-04-13 17:48:50,277 INFO mlhandler.app.tasks: Task f69a9f1b-60bf-4b76-932f-2326bbd6f6ff: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 17:49:55,518 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:49:58,059 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:50:16,139 INFO mlhandler.app.tasks: Task f3b0a3f0-6e48-43ef-851d-b50ca85220ba: loading CSV from upload (laptopData.csv)
+2026-04-13 17:50:26,108 INFO mlhandler.app.tasks: Task 6fbac754-ef1c-4076-b5da-8f67fac29014: loading CSV from upload (file_a.csv)
+2026-04-13 17:50:26,422 INFO mlhandler.app.tasks: Task 6fbac754-ef1c-4076-b5da-8f67fac29014: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 17:50:26,486 ERROR mlhandler.app.main: Unhandled exception during request GET http://testserver/lineage/6fbac754-ef1c-4076-b5da-8f67fac29014: Out of range float values are not JSON compliant: nan
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 328, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 161, in get_lineage
+    return JSONResponse(content=json.load(fh))
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\responses.py", line 189, in __init__
+    super().__init__(content, status_code, headers, media_type, background)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\responses.py", line 46, in __init__
+    self.body = self.render(content)
+                ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Roaming\Python\Python314\site-packages\starlette\responses.py", line 192, in render
+    return json.dumps(
+           ~~~~~~~~~~^
+        content,
+        ^^^^^^^^
+    ...<3 lines>...
+        separators=(",", ":"),
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ).encode("utf-8")
+    ^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant: nan
+when serializing list item 3
+when serializing dict item 'before'
+when serializing dict item 'metric_1'
+when serializing dict item 'preview_samples'
+when serializing dict item 'details'
+when serializing list item 2
+when serializing dict item 'events'
+2026-04-13 17:50:49,888 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:50:51,450 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:52:44,539 INFO mlhandler.app.tasks: Task f2d1f126-9d59-4e80-84c9-b64b0ffbd0b4: loading CSV from upload (file_a.csv)
+2026-04-13 17:52:44,842 INFO mlhandler.app.tasks: Task f2d1f126-9d59-4e80-84c9-b64b0ffbd0b4: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 17:53:00,153 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 17:53:02,633 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 17:53:16,389 INFO mlhandler.app.tasks: Task d96cd989-11de-4eae-8443-bf0c388be60f: loading CSV from upload (file_a.csv)
+2026-04-13 17:53:17,204 INFO mlhandler.app.tasks: Task d96cd989-11de-4eae-8443-bf0c388be60f: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 17:53:17,445 INFO mlhandler.app.tasks: Task 845a75ad-3c7c-4aea-8dcf-2c5d4043bc49: loading CSV from upload (file_b.csv)
+2026-04-13 17:57:51,201 INFO mlhandler.app.tasks: Task 948ab6d8-3504-4770-bf98-eed456527d83: loading CSV from upload (x.csv)
+2026-04-13 17:57:51,467 INFO mlhandler.app.tasks: Task 948ab6d8-3504-4770-bf98-eed456527d83: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 17:59:58,893 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:00:00,750 INFO mlhandler.app.tasks: Task 416e353a-118c-4444-87ad-d1506b737f22: loading CSV from upload (file_a.csv)
+2026-04-13 18:00:00,881 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:00:01,071 INFO mlhandler.app.tasks: Task 416e353a-118c-4444-87ad-d1506b737f22: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 18:00:01,175 INFO mlhandler.app.tasks: Task 919a8894-861d-42a3-a719-44a5679b9271: loading CSV from upload (file_b.csv)
+2026-04-13 18:00:15,118 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:00:16,915 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:02:13,558 INFO mlhandler.app.tasks: Task 5d8be6e0-5b45-4b9f-85d2-9450df4a8905: loading CSV from upload (file_a.csv)
+2026-04-13 18:02:13,945 INFO mlhandler.app.tasks: Task 5d8be6e0-5b45-4b9f-85d2-9450df4a8905: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 18:02:14,115 INFO mlhandler.app.tasks: Task 5dcfbba2-32ae-46dd-82e5-c88161138fea: loading CSV from upload (file_b.csv)
+2026-04-13 18:04:10,695 INFO mlhandler.app.tasks: Task 7e80633d-80b2-423e-ba78-c17d306a64e9: loading CSV from upload (file_b.csv)
+2026-04-13 18:04:19,134 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:04:21,004 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:05:33,591 INFO mlhandler.app.tasks: Task d7a30184-1036-42dc-b5e4-e4c13b9f9c10: loading CSV from upload (file_b.csv)
+2026-04-13 18:05:52,095 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:05:53,974 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:06:12,968 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:06:15,018 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:09:28,930 INFO mlhandler.app.tasks: Task 42a1c362-309e-4489-8971-4a6ef44f2dc9: loading CSV from upload (file_b.csv)
+2026-04-13 18:09:29,301 INFO mlhandler.app.tasks: Task 42a1c362-309e-4489-8971-4a6ef44f2dc9: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 18:09:48,013 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:09:49,798 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:10:43,603 INFO mlhandler.app.tasks: Task b7e9d0c2-778e-41c4-ba8c-ebb925c504ca: loading CSV from upload (file_a.csv)
+2026-04-13 18:10:43,953 INFO mlhandler.app.tasks: Task b7e9d0c2-778e-41c4-ba8c-ebb925c504ca: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 18:10:44,055 INFO mlhandler.app.tasks: Task a1c177fd-0229-48be-b638-b87181b36ca7: loading CSV from upload (file_b.csv)
+2026-04-13 18:10:44,228 INFO mlhandler.app.tasks: Task a1c177fd-0229-48be-b638-b87181b36ca7: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 18:21:20,649 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:23:46,109 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:24:14,749 INFO mlhandler.app.tasks: Task 1390bfb3-246a-44f1-86f0-d25e1c8d2342: loading CSV from upload (enrollment.csv)
+2026-04-13 18:27:00,255 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:28:38,153 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:29:55,364 INFO mlhandler.app.tasks: Task a257be8b-f437-4989-870f-38c972b5cd2a: loading CSV from upload (enrollment.csv)
+2026-04-13 18:30:21,694 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:30:25,044 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:30:29,651 INFO mlhandler.app.tasks: Task 109c2475-129f-4177-a917-1123dcecc714: loading CSV from upload (enrollment.csv)
+2026-04-13 18:32:44,929 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:32:47,604 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:33:16,752 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:33:19,215 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:34:33,166 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:35:37,175 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:35:39,216 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:35:48,820 INFO mlhandler.app.tasks: Task c2c7501a-be7e-490c-88ea-8430b078a2ba: loading CSV from upload (enrollment.csv)
+2026-04-13 18:39:01,431 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:39:04,176 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:39:06,560 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:39:08,959 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:39:28,941 WARNING mlhandler.app.tasks: Task smoke: initial Excel export failed, retrying with sanitized data: badchar cannot be used in worksheets.
+2026-04-13 18:40:16,259 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:41:20,681 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:41:22,555 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:41:25,025 INFO mlhandler.app.tasks: Task a214ceaa-b682-421c-9062-64510fd99296: loading CSV from upload (enrollment.csv)
+2026-04-13 18:42:22,935 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:42:25,480 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 18:43:23,759 INFO mlhandler.app.tasks: Task 54b6344a-e9c0-4063-919e-33db62f910fc: loading CSV from upload (enrollment.csv)
+2026-04-13 18:44:59,830 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/upload: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 48, in upload_csv
+    from app.services.pipeline_config import parse_pipeline_yaml, pipeline_steps_to_config
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-13 18:45:01,914 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/upload: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 48, in upload_csv
+    from app.services.pipeline_config import parse_pipeline_yaml, pipeline_steps_to_config
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-13 18:59:49,800 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 18:59:56,705 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-13 19:00:12,291 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/upload: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 48, in upload_csv
+    from app.services.pipeline_config import parse_pipeline_yaml, pipeline_steps_to_config
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-13 19:00:17,886 INFO mlhandler.app.tasks: Task 5b5c3fee-9295-45bb-9b86-b3e9eca01e0a: loading CSV from upload (laptopData.csv)
+2026-04-13 19:00:20,267 INFO mlhandler.app.tasks: Task 5b5c3fee-9295-45bb-9b86-b3e9eca01e0a: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 19:01:02,428 INFO mlhandler.app.tasks: Task 70d41580-aaae-49b5-96cf-3b1e222235a5: loading CSV from upload (enrollment.csv)
+2026-04-13 19:01:03,845 INFO mlhandler.app.tasks: Task 70d41580-aaae-49b5-96cf-3b1e222235a5: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 19:01:39,444 INFO mlhandler.app.tasks: Task 9233bdef-51de-4d0f-a7c3-a75dcab2ea70: loading CSV from upload (enrollment.csv)
+2026-04-13 19:01:40,802 INFO mlhandler.app.tasks: Task 9233bdef-51de-4d0f-a7c3-a75dcab2ea70: saved outputs in D:\Projects 2026\MLHandler\backend/downloads
+2026-04-13 19:02:03,132 INFO mlhandler.app.main: MLHandler application shutting down
+2026-04-13 19:02:04,616 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-14 10:43:08,286 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-14 10:48:38,279 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-14 10:50:47,604 INFO mlhandler.app.tasks: Task 8177ecd6-a742-43f1-8edf-803068e786bc: loading CSV from upload (small_mixed.csv)
+2026-04-14 10:50:49,024 INFO mlhandler.app.tasks: Task 8177ecd6-a742-43f1-8edf-803068e786bc: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:50:49,714 INFO mlhandler.app.tasks: Task 26cc97ff-4db7-4858-8eab-f4669e4aa504: loading CSV from upload (large_transactions.csv)
+2026-04-14 10:50:59,039 INFO mlhandler.app.tasks: Task 26cc97ff-4db7-4858-8eab-f4669e4aa504: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:50:59,045 INFO mlhandler.app.tasks: Task 2012466e-ee39-499b-a080-31aa84d5f96e: loading CSV from upload (titanic.csv)
+2026-04-14 10:50:59,476 INFO mlhandler.app.tasks: Task 2012466e-ee39-499b-a080-31aa84d5f96e: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:50:59,485 INFO mlhandler.app.tasks: Task 44840bc2-2b5c-48b2-935e-05318cf54adc: loading CSV from upload (netflix.csv)
+2026-04-14 10:50:59,732 INFO mlhandler.app.tasks: Task 44840bc2-2b5c-48b2-935e-05318cf54adc: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:51:37,606 INFO mlhandler.app.tasks: Task c5f3f2d2-71a4-4f28-8588-f299edede16e: loading CSV from upload (small_mixed.csv)
+2026-04-14 10:51:37,767 INFO mlhandler.app.tasks: Task c5f3f2d2-71a4-4f28-8588-f299edede16e: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:51:39,701 INFO mlhandler.app.tasks: Task 91a21a13-416e-4bec-8f65-f434d898cfa7: loading CSV from upload (large_transactions.csv)
+2026-04-14 10:51:49,820 INFO mlhandler.app.tasks: Task 91a21a13-416e-4bec-8f65-f434d898cfa7: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:51:49,826 INFO mlhandler.app.tasks: Task 0827a1a9-85c2-4fe7-b117-3dfe1ff67435: loading CSV from upload (titanic.csv)
+2026-04-14 10:51:50,348 INFO mlhandler.app.tasks: Task 0827a1a9-85c2-4fe7-b117-3dfe1ff67435: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:51:50,352 INFO mlhandler.app.tasks: Task 17a206e5-e24e-474e-8322-7931715ed4d6: loading CSV from upload (netflix.csv)
+2026-04-14 10:51:50,572 INFO mlhandler.app.tasks: Task 17a206e5-e24e-474e-8322-7931715ed4d6: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:53:03,359 INFO mlhandler.app.tasks: Task 97900ccc-076b-47b5-acfa-a9e4201aa959: loading CSV from upload (small_mixed.csv)
+2026-04-14 10:53:03,719 INFO mlhandler.app.tasks: Task 97900ccc-076b-47b5-acfa-a9e4201aa959: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:53:07,982 INFO mlhandler.app.tasks: Task f3ff8269-cd13-44e2-9e60-680ced19a50a: loading CSV from upload (large_transactions.csv)
+2026-04-14 10:53:31,333 INFO mlhandler.app.tasks: Task f3ff8269-cd13-44e2-9e60-680ced19a50a: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:54:36,922 INFO mlhandler.app.tasks: Task aa46e009-50e9-4769-b88d-228bf01c2acf: loading CSV from upload (large_transactions.csv)
+2026-04-14 10:54:59,442 INFO mlhandler.app.tasks: Task aa46e009-50e9-4769-b88d-228bf01c2acf: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:56:07,267 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/validate-yaml: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 359, in validate_yaml
+    from app.services.pipeline_config import parse_pipeline_yaml
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-14 10:56:09,347 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/validate-yaml: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 359, in validate_yaml
+    from app.services.pipeline_config import parse_pipeline_yaml
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-14 10:56:11,406 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/upload: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 48, in upload_csv
+    from app.services.pipeline_config import parse_pipeline_yaml, pipeline_steps_to_config
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-14 10:56:42,379 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/validate-yaml: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 359, in validate_yaml
+    from app.services.pipeline_config import parse_pipeline_yaml
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-14 10:56:44,447 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/validate-yaml: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 359, in validate_yaml
+    from app.services.pipeline_config import parse_pipeline_yaml
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-14 10:56:46,508 ERROR mlhandler.app.main: Unhandled exception during request POST http://localhost:8000/upload: No module named 'yaml'
+Traceback (most recent call last):
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Kartik Patel\AppData\Local\Programs\Python\Python313\Lib\site-packages\fastapi\routing.py", line 243, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects 2026\MLHandler\backend\app\api\routes.py", line 48, in upload_csv
+    from app.services.pipeline_config import parse_pipeline_yaml, pipeline_steps_to_config
+  File "D:\Projects 2026\MLHandler\backend\app\services\pipeline_config.py", line 3, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+2026-04-14 10:57:52,202 INFO mlhandler.app.main: MLHandler application starting up
+2026-04-14 10:58:17,809 INFO mlhandler.app.tasks: Task bd2733e7-1b01-490c-80f7-8ef1fd4085ed: loading CSV from upload (titanic.csv)
+2026-04-14 10:58:20,276 INFO mlhandler.app.tasks: Task bd2733e7-1b01-490c-80f7-8ef1fd4085ed: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:21,049 INFO mlhandler.app.tasks: Task 05b9ee0e-ebf2-4c95-8b9c-8d9ad1aacf73: loading CSV from upload (small_mixed.csv)
+2026-04-14 10:58:21,602 INFO mlhandler.app.tasks: Task 05b9ee0e-ebf2-4c95-8b9c-8d9ad1aacf73: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:21,609 INFO mlhandler.app.tasks: Task a4c7587e-c72d-4152-aefe-3d6edeaf9873: loading CSV from upload (titanic.csv)
+2026-04-14 10:58:22,668 INFO mlhandler.app.tasks: Task a4c7587e-c72d-4152-aefe-3d6edeaf9873: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:22,678 INFO mlhandler.app.tasks: Task f3cf056d-1a29-47fa-a1aa-f30572dac8e1: loading CSV from upload (iris.csv)
+2026-04-14 10:58:22,830 INFO mlhandler.app.tasks: Task f3cf056d-1a29-47fa-a1aa-f30572dac8e1: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:22,838 INFO mlhandler.app.tasks: Task cc72dc28-381c-4ab0-86a5-13a8f9ce7bc6: loading CSV from upload (happiness.csv)
+2026-04-14 10:58:23,236 INFO mlhandler.app.tasks: Task cc72dc28-381c-4ab0-86a5-13a8f9ce7bc6: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:23,245 INFO mlhandler.app.tasks: Task da953bd6-c08f-4e0e-b952-0c5e1c9939ee: loading CSV from upload (titanic.csv)
+2026-04-14 10:58:24,198 INFO mlhandler.app.tasks: Task da953bd6-c08f-4e0e-b952-0c5e1c9939ee: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:33,997 INFO mlhandler.app.tasks: Task 8da3470d-3969-497b-8849-ed6e11fb3ed6: loading CSV from upload (semantic_test.csv)
+2026-04-14 10:58:34,329 INFO mlhandler.app.tasks: Task 8da3470d-3969-497b-8849-ed6e11fb3ed6: saved outputs in D:\Projects 2026\MLHandler\backend\downloads
+2026-04-14 10:58:43,994 INFO mlhandler.app.tasks: Task 3db610a3-132d-4f7c-866a-f389292f0421: loading CSV from upload (small_mixed.csv)
+2026-04-14 10:58:44,372 INFO mlhandler.app.tasks: Task 3db610a3-132d-4f7c-866a-f389292f0421: saved outputs in D:\Projects 2026\MLHandler\backend\downloads

@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+.env
+.venv
+venv
+downloads/
+app/temp/
+tests/
+*.txt.bak
+.git

@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+.cache
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+.env.production
+!.env.example
+
+# MLHandler generated files
+backend/downloads/*.csv
+backend/downloads/*.parquet
+backend/downloads/*.xlsx
+backend/downloads/*.json
+backend/app/temp/
+backend/app/logs/
+
+# Node / React
+node_modules/
+frontend/dist/
+
+# Test files and reports
+*test_results.txt
+*test_output.txt
+backend/pipeline_integration_test_results.txt
+schema_loading_test_output.txt
+test_data/
+backend/tests/output/
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+python-multipart
+celery[redis]==5.3.6
+redis==5.0.1
+python-dotenv
+pyyaml
+pyarrow>=14.0.0
+openpyxl>=3.1.0

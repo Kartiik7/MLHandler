@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "description": "Default schema for laptop dataset with field mappings and validation rules",
+  "schema": {
+    "fields": {
+      "Ram": {
+        "aliases": ["ram", "RAM", "memory_ram", "system_ram"],
+        "type": "numeric",
+        "unit": "GB",
+        "pattern": "(\\d+)\\s*GB",
+        "required": false
+      },
+      "Memory": {
+        "aliases": ["memory", "MEMORY", "storage_capacity", "disk_size"],
+        "type": "numeric",
+        "unit": "GB",
+        "pattern": "(\\d+)\\s*(GB|TB|MB)",
+        "unit_standardization": true,
+        "unit_pattern": "(\\d+\\.?\\d*)\\s*(MB|GB|TB)",
+        "required": false
+      },
+      "Weight": {
+        "aliases": ["weight", "mass", "WEIGHT"],
+        "type": "numeric",
+        "unit": "kg",
+        "pattern": "(\\d+\\.?\\d*)\\s*kg",
+        "required": false
+      },
+      "Price": {
+        "aliases": ["price", "cost", "Price_in_INR", "product_price"],
+        "type": "numeric",
+        "unit": "INR",
+        "required": false
+      },
+      "Company": {
+        "aliases": ["company", "manufacturer", "brand", "COMPANY"],
+        "type": "categorical",
+        "required": false
+      },
+      "TypeName": {
+        "aliases": ["typename", "type_name", "product_type", "category"],
+        "type": "categorical",
+        "required": false
+      },
+      "Inches": {
+        "aliases": ["inches", "screen_size", "display_size"],
+        "type": "numeric",
+        "unit": "inches",
+        "required": false
+      },
+      "ScreenResolution": {
+        "aliases": ["screenresolution", "screen_resolution", "resolution", "display_resolution"],
+        "type": "categorical",
+        "required": false
+      },
+      "Cpu": {
+        "aliases": ["cpu", "CPU", "processor", "processor_name"],
+        "type": "categorical",
+        "required": false
+      },
+      "Gpu": {
+        "aliases": ["gpu", "GPU", "graphics", "graphics_card"],
+        "type": "categorical",
+        "required": false
+      },
+      "OpSys": {
+        "aliases": ["opsys", "os", "operating_system", "OS"],
+        "type": "categorical",
+        "required": false
+      }
+    }
+  }
+}

@@ -108,22 +108,31 @@ async def download_file(task_id: str, format: str = "csv") -> FileResponse:
     return FileResponse(path=path, media_type=media_type, filename=download_name)
 
 
+def _get_task_info(task_id: str) -> dict:
+    result = AsyncResult(task_id, app=celery_app)
+    return {
+        "state": result.state,
+        "info": result.info,
+        "result": result.result if result.state == "SUCCESS" else None,
+    }
+
 @router.websocket("/ws/{task_id}")
 async def websocket_progress(websocket: WebSocket, task_id: str) -> None:
     """Stream task progress updates over WebSocket."""
     await websocket.accept()
     try:
         while True:
-            result = AsyncResult(task_id, app=celery_app)
+            res = await asyncio.to_thread(_get_task_info, task_id)
+            state = res["state"]
 
-            if result.state == "PENDING":
+            if state == "PENDING":
                 await websocket.send_json({"percent": 0, "stage": "Queued", "status": "pending"})
 
-            elif result.state == "STARTED":
+            elif state == "STARTED":
                 await websocket.send_json({"percent": 2, "stage": "Starting", "status": "processing"})
 
-            elif result.state == "PROGRESS":
-                meta = result.info or {}
+            elif state == "PROGRESS":
+                meta = res["info"] or {}
                 await websocket.send_json(
                     {
                         "percent": meta.get("percent", 0),
@@ -132,21 +141,21 @@ async def websocket_progress(websocket: WebSocket, task_id: str) -> None:
                     }
                 )
 
-            elif result.state == "SUCCESS":
-                final = result.result or {}
+            elif state == "SUCCESS":
+                final = res["result"] or {}
                 payload = {"percent": 100, "stage": "Complete", "status": "done"}
                 if isinstance(final, dict):
                     payload.update(final)
                 await websocket.send_json(payload)
                 break
 
-            elif result.state == "FAILURE":
+            elif state == "FAILURE":
                 await websocket.send_json(
                     {
                         "percent": 0,
                         "stage": "Failed",
                         "status": "error",
-                        "error": str(result.info),
+                        "error": str(res["info"]),
                     }
                 )
                 break

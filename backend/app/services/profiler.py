@@ -105,5 +105,64 @@ def profile_dataframe(
 
 		summary["columns"][str(col)] = col_summary
 
+	# Compute Pearson correlation matrix for numeric columns
+	import math
+	numeric_df = df.select_dtypes(include="number")
+	total_numeric = int(numeric_df.shape[1])
+
+	if total_numeric >= 2:
+		max_columns = 25
+		sampled = False
+		dropped_columns = []
+
+		# Column-count guard: keep top-N by variance
+		if total_numeric > max_columns:
+			sampled = True
+			variances = numeric_df.var(numeric_only=True).sort_values(ascending=False)
+			keep = variances.index[:max_columns].tolist()
+			dropped_columns = variances.index[max_columns:].tolist()
+			numeric_df = numeric_df[keep]
+
+		# Row-count guard: sample for very large datasets
+		_ROW_SAMPLE_THRESHOLD = 500_000
+		_ROW_SAMPLE_SIZE = 100_000
+		row_sampled = False
+		sample_rows = None
+
+		if len(numeric_df) > _ROW_SAMPLE_THRESHOLD:
+			numeric_df = numeric_df.sample(n=_ROW_SAMPLE_SIZE, random_state=42)
+			row_sampled = True
+			sample_rows = _ROW_SAMPLE_SIZE
+
+		try:
+			corr_matrix = numeric_df.corr(method="pearson", numeric_only=True)
+			columns_list = [str(c) for c in corr_matrix.columns]
+
+			# Serialise matrix: NaN/inf -> None
+			matrix = []
+			for _, row in corr_matrix.iterrows():
+				serialised_row = []
+				for val in row:
+					if val is None or (isinstance(val, float) and (math.isnan(val) or math.isinf(val))):
+						serialised_row.append(None)
+					else:
+						serialised_row.append(round(float(val), 4))
+				matrix.append(serialised_row)
+
+			summary["correlation"] = {
+				"columns": columns_list,
+				"matrix": matrix,
+				"total_numeric_columns": total_numeric,
+				"sampled": sampled,
+				"dropped_columns": [str(c) for c in dropped_columns],
+				"row_sampled": row_sampled,
+				"sample_rows": sample_rows,
+				"method": "pearson"
+			}
+		except Exception as exc:
+			summary["correlation"] = None
+	else:
+		summary["correlation"] = None
+
 	return summary
 

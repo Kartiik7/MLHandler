@@ -1,5 +1,6 @@
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import CorrelationHeatmap from './CorrelationHeatmap';
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D', '#FFC658'];
 
@@ -122,11 +123,17 @@ const BoxPlot = ({ data, columnName }) => {
   );
 };
 
-const DataVisualizations = ({ data, report, loading = false, onDetectOutliers, onCleanOutliers }) => {
+const DataVisualizations = ({ data, report, loading = false, taskId, onDetectOutliers, onCleanOutliers }) => {
   const [selectedNumericColumn, setSelectedNumericColumn] = useState('');
   const [selectedCategoricalColumn, setSelectedCategoricalColumn] = useState('');
   const [categoricalChartType, setCategoricalChartType] = useState('pie');
   const [selectedBoxPlotColumn, setSelectedBoxPlotColumn] = useState('');
+
+  // Real histogram state — driven by GET /histogram/{taskId}/{column}
+  const [histogramData, setHistogramData] = useState([]);
+  const [histogramLoading, setHistogramLoading] = useState(false);
+  const [histogramError, setHistogramError] = useState('');
+  const [histogramMeta, setHistogramMeta] = useState(null); // { total_non_null, min, max }
 
   const [outlierSectionOpen, setOutlierSectionOpen] = useState(false);
   const [outlierData, setOutlierData] = useState(null);
@@ -202,35 +209,104 @@ const DataVisualizations = ({ data, report, loading = false, onDetectOutliers, o
     if (numericColumns.length > 0 && !selectedBoxPlotColumn) setSelectedBoxPlotColumn(numericColumns[0].name);
   }, [numericColumns, categoricalColumns, selectedNumericColumn, selectedCategoricalColumn, selectedBoxPlotColumn]);
 
-  const histogramData = useMemo(() => {
-    if (!selectedNumericColumn || !data?.columns?.[selectedNumericColumn]) return [];
-
-    const stats = data.columns[selectedNumericColumn];
-    if (stats.type !== 'numeric' || stats.min === null || stats.max === null) return [];
-
-    const binCount = 10;
-    const range = stats.max - stats.min;
-    const binWidth = range / binCount;
-
-    const bins = [];
-    for (let i = 0; i < binCount; i += 1) {
-      const binStart = stats.min + i * binWidth;
-      const binEnd = binStart + binWidth;
-      const binCenter = (binStart + binEnd) / 2;
-
-      let frequency = 0;
-      if (stats.mean !== null && stats.std !== null && stats.std > 0) {
-        const z = (binCenter - stats.mean) / stats.std;
-        frequency = Math.exp(-0.5 * z * z) * 100;
-      } else {
-        frequency = 50;
-      }
-
-      bins.push({ range: `${binStart.toFixed(1)}-${binEnd.toFixed(1)}`, frequency: Math.round(frequency), center: binCenter });
+  /**
+   * Fetch real histogram data from GET /histogram/{taskId}/{column}?bins=10.
+   * Runs whenever the selected numeric column or taskId changes.
+   * Clears stale data immediately to avoid showing incorrect bars during fetch.
+   */
+  const fetchHistogram = useCallback(async (column, id) => {
+    if (!column || !id) {
+      setHistogramData([]);
+      setHistogramMeta(null);
+      return;
     }
 
-    return bins;
-  }, [selectedNumericColumn, data]);
+    setHistogramLoading(true);
+    setHistogramError('');
+    setHistogramData([]);
+    setHistogramMeta(null);
+
+    try {
+      const API_BASE = import.meta.env.VITE_API_URL || 'http://api:8000';
+      const encodedColumn = encodeURIComponent(column);
+      const res = await fetch(`${API_BASE}/histogram/${id}/${encodedColumn}?bins=10`);
+      const payload = await res.json();
+
+      if (!res.ok) {
+        setHistogramError(payload.error || `Request failed (${res.status})`);
+        return;
+      }
+
+      if (!payload.bins || payload.bins.length === 0) {
+        setHistogramError('No data available for this column.');
+        return;
+      }
+
+      // Transform backend response into Recharts-friendly [{range, count}] shape
+      const chartData = payload.bins.map((label, idx) => ({
+        range: label,
+        count: payload.counts[idx] ?? 0,
+      }));
+
+      setHistogramData(chartData);
+      setHistogramMeta({
+        total_non_null: payload.total_non_null,
+        min: payload.min,
+        max: payload.max,
+      });
+    } catch (err) {
+      setHistogramError('Failed to fetch histogram — is the server running?');
+      console.error('[Histogram] fetch error:', err);
+    } finally {
+      setHistogramLoading(false);
+    }
+  }, []);
+
+  // Re-fetch whenever the selected column or processed task changes
+  useEffect(() => {
+    fetchHistogram(selectedNumericColumn, taskId);
+  }, [selectedNumericColumn, taskId, fetchHistogram]);
+
+  // ── Correlation matrix state ────────────────────────────────────────────
+  const [corrData, setCorrData] = useState(null);
+  const [corrLoading, setCorrLoading] = useState(false);
+  const [corrError, setCorrError] = useState('');
+
+  useEffect(() => {
+    if (!taskId) {
+      setCorrData(null);
+      setCorrError('');
+      return;
+    }
+
+    let cancelled = false;
+    setCorrLoading(true);
+    setCorrError('');
+    setCorrData(null);
+
+    const API_BASE = import.meta.env.VITE_API_URL || 'http://api:8000';
+    fetch(`${API_BASE}/correlation/${taskId}?max_columns=25`)
+      .then((res) => res.json().then((body) => ({ ok: res.ok, status: res.status, body })))
+      .then(({ ok, body }) => {
+        if (cancelled) return;
+        if (!ok) {
+          setCorrError(body.error || 'Failed to load correlation data.');
+        } else {
+          setCorrData(body);
+        }
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setCorrError('Failed to fetch correlation — is the server running?');
+          console.error('[Correlation] fetch error:', err);
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setCorrLoading(false);
+      });
+
+    return () => { cancelled = true; };
+  }, [taskId]);
 
   const categoricalData = useMemo(() => {
     if (!selectedCategoricalColumn || !data?.columns?.[selectedCategoricalColumn]) return [];
@@ -463,16 +539,69 @@ const DataVisualizations = ({ data, report, loading = false, onDetectOutliers, o
                 </span>
               </div>
 
-              <ResponsiveContainer width="100%" height={300}>
-                <BarChart data={histogramData}>
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="range" angle={-45} textAnchor="end" height={80} />
-                  <YAxis />
-                  <Tooltip />
-                  <Legend />
-                  <Bar dataKey="frequency" fill="#4ECDC4" name="Frequency (approx)" />
-                </BarChart>
-              </ResponsiveContainer>
+              {/* Real histogram — data fetched from GET /histogram/{taskId}/{column} */}
+              {histogramLoading && (
+                <div className="flex items-center justify-center h-48 text-gray-500 gap-2">
+                  <svg className="animate-spin h-5 w-5 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z" />
+                  </svg>
+                  <span className="text-sm">Loading histogram…</span>
+                </div>
+              )}
+
+              {!histogramLoading && histogramError && (
+                <div className="flex items-center justify-center h-48">
+                  <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-2">
+                    {histogramError}
+                  </p>
+                </div>
+              )}
+
+              {!histogramLoading && !histogramError && histogramData.length > 0 && (
+                <>
+                  {histogramMeta && (
+                    <p className="text-xs text-gray-500 mb-2">
+                      Based on{' '}
+                      <span className="font-semibold text-gray-700">{histogramMeta.total_non_null.toLocaleString()}</span>{' '}
+                      non-null values &nbsp;·&nbsp; range{' '}
+                      <span className="font-semibold text-gray-700">
+                        {histogramMeta.min?.toFixed(2)} – {histogramMeta.max?.toFixed(2)}
+                      </span>
+                    </p>
+                  )}
+                  <ResponsiveContainer width="100%" height={300}>
+                    <BarChart data={histogramData} barCategoryGap="2%">
+                      <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                      <XAxis
+                        dataKey="range"
+                        angle={-40}
+                        textAnchor="end"
+                        height={80}
+                        tick={{ fontSize: 11 }}
+                        interval={0}
+                      />
+                      <YAxis
+                        allowDecimals={false}
+                        tick={{ fontSize: 11 }}
+                        label={{
+                          value: 'Count',
+                          angle: -90,
+                          position: 'insideLeft',
+                          offset: 10,
+                          style: { fontSize: 11, fill: '#6b7280' },
+                        }}
+                      />
+                      <Tooltip
+                        formatter={(value) => [value.toLocaleString(), 'Count']}
+                        cursor={{ fill: 'rgba(99, 102, 241, 0.08)' }}
+                      />
+                      <Legend />
+                      <Bar dataKey="count" fill="#4ECDC4" name="Count" radius={[3, 3, 0, 0]} />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </>
+              )}
             </>
           )}
         </div>
@@ -654,6 +783,31 @@ const DataVisualizations = ({ data, report, loading = false, onDetectOutliers, o
           </div>
         </section>
       )}
+
+      {/* ── Correlation Heatmap ───────────────────────────────────────────── */}
+      <section className="mt-8">
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <h2 className="text-xl font-bold text-indigo-600">Correlation Heatmap</h2>
+            <p className="text-xs text-gray-500 mt-0.5">
+              Pearson r between numeric columns. Values closer to ±1 indicate stronger linear relationships.
+            </p>
+          </div>
+          {corrData && (
+            <span className="text-xs text-gray-400 font-medium">
+              {corrData.columns.length} × {corrData.columns.length} matrix
+            </span>
+          )}
+        </div>
+
+        <div className="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
+          <CorrelationHeatmap
+            corrData={corrData}
+            loading={corrLoading}
+            error={corrError}
+          />
+        </div>
+      </section>
     </div>
   );
 };

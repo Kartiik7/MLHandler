@@ -21,6 +21,11 @@ celery_app.conf.update(
     accept_content=["json"],
     result_expires=3600,
     broker_connection_retry_on_startup=True,
-    broker_use_ssl={"ssl_cert_reqs": ssl.CERT_NONE},
-    redis_backend_use_ssl={"ssl_cert_reqs": ssl.CERT_NONE},
 )
+
+# Only configure SSL if the connection scheme is 'rediss://' (Redis over SSL/TLS)
+if REDIS_URL.startswith("rediss://"):
+    celery_app.conf.update(
+        broker_use_ssl={"ssl_cert_reqs": ssl.CERT_NONE},
+        redis_backend_use_ssl={"ssl_cert_reqs": ssl.CERT_NONE},
+    )

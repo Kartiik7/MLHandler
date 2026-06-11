@@ -6,6 +6,8 @@ import LineageViewer from './components/LineageViewer';
 import PipelineConfig from './components/PipelineConfig';
 import { ProgressBar } from './components/ProgressBar';
 import { useTaskProgress } from './hooks/useTaskProgress';
+import DataQualityDashboard from './components/DataQualityDashboard';
+import DatasetComparison from './components/DatasetComparison';
 import { API_BASE } from './config';
 import './App.css';
 
@@ -229,7 +231,7 @@ function App() {
             <div className="report-section">
               <h2>Results</h2>
 
-              <div className="flex gap-3 mt-4">
+              <div className="flex flex-wrap gap-3 mt-4">
                 <button type="button" className={activeTab === 'report' ? 'submit-btn' : 'download-btn'} onClick={() => setActiveTab('report')}>
                   Report
                 </button>
@@ -239,6 +241,20 @@ function App() {
                   onClick={() => setActiveTab('visualizations')}
                 >
                   Visualizations
+                </button>
+                <button
+                  type="button"
+                  className={activeTab === 'quality' ? 'submit-btn' : 'download-btn'}
+                  onClick={() => setActiveTab('quality')}
+                >
+                  Quality Score
+                </button>
+                <button
+                  type="button"
+                  className={activeTab === 'compare' ? 'submit-btn' : 'download-btn'}
+                  onClick={() => setActiveTab('compare')}
+                >
+                  Compare Datasets
                 </button>
                 <button type="button" className={activeTab === 'audit' ? 'submit-btn' : 'download-btn'} onClick={() => setActiveTab('audit')}>
                   Audit Log
@@ -294,13 +310,22 @@ function App() {
                     data={columnStats}
                     report={report}
                     loading={loading}
+                    taskId={taskId}
                     onDetectOutliers={detectOutliers}
                     onCleanOutliers={cleanOutliers}
                   />
                 </section>
               )}
 
-              {activeTab === 'audit' && <LineageViewer lineage={lineage} />}
+              {activeTab === 'quality' && (
+                <DataQualityDashboard taskId={taskId} />
+              )}
+
+              {activeTab === 'compare' && (
+                <DatasetComparison defaultTaskId={taskId} />
+              )}
+
+              {activeTab === 'audit' && <LineageViewer lineage={lineage} report={report} />}
             </div>
           )}
         </section>
